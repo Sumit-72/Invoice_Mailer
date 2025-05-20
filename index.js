@@ -158,6 +158,9 @@ app.post("/generate-invoice", async (req, res) => {
     }
 });
 
+app.get('/', (req, res) => {
+    res.send('Invoice Generator and Sender API is running');
+});
 
 // LISTEN
 app.listen(PORT, () => {
