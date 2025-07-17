@@ -240,7 +240,7 @@ function generateInvoice(invoice, filename, success, error) {
     path: "/",
     method: "POST",
     headers: {
-      "Authorization": "Bearer sk_X4DQHj7ZueOd3SXcSCjXhApT1IPirKqv",
+      "Authorization": "Bearer api key",
       "Content-Type": "application/pdf",
       "Content-Length": Buffer.byteLength(postData),
     },
